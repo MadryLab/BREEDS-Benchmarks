@@ -23,9 +23,10 @@ Paper: https://arxiv.org/abs/2008.04859 <br>
 
 2.  Install dependencies:
     ```
-    conda create -n breeds-benchmarks
+    conda create -n breeds-benchmarks python=3.7 pip
     conda activate breeds-benchmarks
     pip install -r requirements.txt
+    conda install pygraphviz
     ```
 3.  Download the [ImageNet](http://www.image-net.org/) dataset.
 

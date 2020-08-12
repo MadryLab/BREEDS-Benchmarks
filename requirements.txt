@@ -15,4 +15,3 @@ jupyter
 cox
 sklearn
 pillow
-pygraphviz
